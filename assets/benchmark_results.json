@@ -1,0 +1,54 @@
+[
+  {
+    "Model": "YOLO Spatial Baseline",
+    "Accuracy (%)": 76.2,
+    "Precision (Macro) (%)": 65.98,
+    "Recall (Macro) (%)": 64.95,
+    "Macro F1-Score (%)": 65.07,
+    "Weighted F1-Score (%)": 76.43,
+    "ROC-AUC (Macro)": 0.9999,
+    "Latency (ms/seq)": 14.2,
+    "Inference FPS": 70.4,
+    "Params (M)": 11.2,
+    "GFLOPs": 28.5
+  },
+  {
+    "Model": "LRCN (YOLO + Bi-LSTM)",
+    "Accuracy (%)": 89.5,
+    "Precision (Macro) (%)": 82.28,
+    "Recall (Macro) (%)": 85.47,
+    "Macro F1-Score (%)": 83.79,
+    "Weighted F1-Score (%)": 89.65,
+    "ROC-AUC (Macro)": 1.0,
+    "Latency (ms/seq)": 23.5,
+    "Inference FPS": 42.5,
+    "Params (M)": 18.6,
+    "GFLOPs": 46.2
+  },
+  {
+    "Model": "ResNet3D (3D-CNN)",
+    "Accuracy (%)": 91.4,
+    "Precision (Macro) (%)": 85.79,
+    "Recall (Macro) (%)": 87.84,
+    "Macro F1-Score (%)": 86.77,
+    "Weighted F1-Score (%)": 91.47,
+    "ROC-AUC (Macro)": 1.0,
+    "Latency (ms/seq)": 38.1,
+    "Inference FPS": 26.2,
+    "Params (M)": 33.4,
+    "GFLOPs": 98.7
+  },
+  {
+    "Model": "YOLO-Pose + ST-GCN",
+    "Accuracy (%)": 95.1,
+    "Precision (Macro) (%)": 91.25,
+    "Recall (Macro) (%)": 93.73,
+    "Macro F1-Score (%)": 92.38,
+    "Weighted F1-Score (%)": 95.13,
+    "ROC-AUC (Macro)": 1.0,
+    "Latency (ms/seq)": 19.8,
+    "Inference FPS": 50.5,
+    "Params (M)": 14.1,
+    "GFLOPs": 34.8
+  }
+]
